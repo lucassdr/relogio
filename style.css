@@ -1,0 +1,21 @@
+body {
+    font-family: Roboto Mono;
+    background-color: #e7e7e7;
+    color: black;
+    margin-top: 200px;
+    text-align: center;
+}
+#month {
+    font-size: 100px;
+}
+#week {
+    font-size: 80px;
+}
+#hours {
+    font-size: 150px;
+}
+footer {
+    font-size: 20px;
+    color: #00000098;
+    font-family: Roboto Mono;
+}
