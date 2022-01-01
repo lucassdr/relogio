@@ -18,7 +18,7 @@ function month() {
     let day = new Date().getDate();
     let month = document.getElementById('month');
     let _month = new Date().getMonth();
-    let _monthText = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembr', 'Dezembro'];
+    let _monthText = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
     month.innerHTML = `${day} | ${_monthText[_month]}`;
 }
 month();
@@ -27,7 +27,7 @@ month();
 function week() {
     let week = document.getElementById('week');
     let _week = new Date().getDay();
-    let _weekText = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+    let _weekText = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'BruNiel'];
     week.innerHTML = _weekText[_week];
 }
 week();
