@@ -36,6 +36,6 @@ week();
 
 function userName() {
     let userName = document.getElementById('userName')
-    userName.innerHTML = "&copy;lucassdr"
+    userName.innerHTML = "BruNiel"
 }
 userName()
