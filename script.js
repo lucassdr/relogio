@@ -27,7 +27,7 @@ month();
 function week() {
     let week = document.getElementById('week');
     let _week = new Date().getDay();
-    let _weekText = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'BruNiel'];
+    let _weekText = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
     week.innerHTML = _weekText[_week];
 }
 week();
@@ -36,6 +36,6 @@ week();
 
 function userName() {
     let userName = document.getElementById('userName')
-    userName.innerHTML = "BruNiel"
+    userName.innerHTML = "&copy @lucassdr"
 }
 userName()
