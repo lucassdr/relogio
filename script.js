@@ -18,7 +18,7 @@ function month() {
     let day = new Date().getDate();
     let month = document.getElementById('month');
     let _month = new Date().getMonth();
-    let _monthText = ['Janerio', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembr', 'Dezembro'];
+    let _monthText = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembr', 'Dezembro'];
     month.innerHTML = `${day} | ${_monthText[_month]}`;
 }
 month();
