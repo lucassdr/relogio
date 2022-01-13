@@ -21,6 +21,7 @@ function month() {
     let _monthText = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
     month.innerHTML = `${day} | ${_monthText[_month]}`;
 }
+let tictacMonth = setInterval(month, 1000);
 month();
 
 
@@ -30,6 +31,7 @@ function week() {
     let _weekText = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
     week.innerHTML = _weekText[_week];
 }
+let tictacWeek = setInterval(week, 1000);
 week();
 
 
